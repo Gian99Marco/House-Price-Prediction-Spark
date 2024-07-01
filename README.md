@@ -8,9 +8,8 @@
     3. [Architecture and Data Flow](#architecture-and-data-flow)
 3. [Use Case](#use-case)
 4. [Limitations and Possible Extensions](#limitations-and-possible-extensions)
-5. [How to Run](#how-to-run)
-6. [Contributing](#contributing)
-7. [License](#license)
+5. [Requirements](#requirements)
+6. [How to Run](#how-to-run)
 
 ## Introduction
 This project aims to predict house prices using a Linear Regression model implemented with Apache Spark's MLlib. It utilizes various features of the houses, such as the overall quality, living area, garage cars, garage area, total basement area, number of full bathrooms, year built, and number of bedrooms to make accurate predictions.
