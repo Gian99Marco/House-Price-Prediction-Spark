@@ -58,7 +58,8 @@ This project can be used by real estate companies, financial analysts, and indiv
 ## Requirements
 - [Apache Spark 3.3.0](https://spark.apache.org/releases/spark-release-3-3-0.html)
 - [Apache MLlib](https://spark.apache.org/mllib/)
-- Java 8
+- [Apache Maven 3.6.3](https://maven.apache.org/docs/3.6.3/release-notes.html)
+- [Java 8](https://www.java.com/it/download/help/java8.html)
 
 ## How to Run
 1. **Clone the Repository**
