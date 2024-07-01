@@ -60,11 +60,12 @@ This project can be used by real estate companies, financial analysts, and indiv
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/house-price-prediction-spark.git
-   cd house-price-prediction-spark
-2. **Build the Project**
+2. **Adjust the csv path**
+    In HousePricePrediction.java replace "/home/bigdata2022/Scrivania/house-price-prediction/src/main/resources" with "/your/path/to/house-price-prediction/src/main/resources" 
+3. **Build the Project**
    ```bash
    mvn clean install
-3. **Run the Application**
+4. **Run the Application**
    ```bash
    java -cp target/house-price-prediction-1.0-SNAPSHOT.jar com.example.HousePricePrediction
    
