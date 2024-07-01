@@ -53,8 +53,12 @@ This project can be used by real estate companies, financial analysts, and indiv
 ### Possible Extensions
 - Integrate additional features such as neighborhood crime rates, school ratings, proximity to amenities, etc.
 - Experiment with other machine learning algorithms such as Decision Trees, Random Forests, or Gradient Boosting.
-- Implement hyperparameter tuning to improve the model's performance.
-- Deploy the model using a web interface for easier accessibility and user interaction.
+- Implement a web interface to achieve greater accessibility and interaction with the user.
+
+## Requirements
+- [Apache Spark 3.3.0](https://spark.apache.org/releases/spark-release-3-3-0.html)
+- [Apache MLlib](https://spark.apache.org/mllib/)
+- Java 8
 
 ## How to Run
 1. **Clone the Repository**
