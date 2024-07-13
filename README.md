@@ -12,7 +12,7 @@
 6. [How to Run](#how-to-run)
 
 ## Introduction
-This project aims to predict house prices using a Linear Regression model implemented with Apache Spark's MLlib. It utilizes various features of the houses, such as the overall quality, living area, garage cars, garage area, total basement area, number of full bathrooms, year built, and number of bedrooms to make accurate predictions.
+This project aims to predict house prices using a linear regression model implemented with Apache Spark's MLlib. It utilizes various features of the houses, such as the overall quality, living area, garage cars, garage area, total basement area, number of full bathrooms, year built, and number of bedrooms to make accurate predictions.
 
 ## Dataflow and Technologies Used
 
@@ -38,8 +38,8 @@ The dataset can be found at this link: [House Prices](https://www.kaggle.com/com
 1. **Data Loading**: The dataset is loaded from a CSV file into a Spark DataFrame.
 2. **Data Preprocessing**: The data is cleaned and preprocessed, handling missing values and transforming features as necessary.
 3. **Feature Engineering**: Relevant features are selected and assembled into a feature vector.
-4. **Model Training**: A Linear Regression model is trained using the preprocessed data.
-5. **Prediction**: The model is used to make predictions on new data.
+4. **Model Training**: A linear regression model is created and added to a Spark pipeline, which is then trained using the preprocessed data.
+5. **Prediction**: The model is used to make predictions on the input data by the user.
 
 ## Use Case
 This project can be used by real estate companies, financial analysts, and individual buyers or sellers to estimate the price of a house based on its features. It can help in making informed decisions regarding buying or selling properties.
@@ -47,7 +47,7 @@ This project can be used by real estate companies, financial analysts, and indiv
 ## Limitations and Possible Extensions
 ### Limitations
 - The model is only as good as the data it is trained on. If the data is not representative of the real-world scenario, the predictions might not be accurate.
-- The model does not account for macroeconomic factors, location-specific trends, or other external variables that can affect house prices.
+- The model does not account for economic factors, location characteristics, or other external variables that can affect house prices.
 
 ### Possible Extensions
 - Integrate additional features such as neighborhood crime rates, school ratings, proximity to amenities, etc.
