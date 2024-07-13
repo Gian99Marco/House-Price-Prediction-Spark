@@ -44,6 +44,30 @@ The dataset can be found at this link: [House Prices](https://www.kaggle.com/com
 ## Use Case
 This project can be used by real estate companies, financial analysts, and individual buyers or sellers to estimate the price of a house based on its features. It can help in making informed decisions regarding buying or selling properties.
 
+### Input
+When the program starts, the user is asked via command line for various parameters relating to the house for which he wants to estimate the price. The required parameters are:
+- Overall Quality (on a scale of 1 to 10)
+- Above Ground Living Area (in square feet)
+- Number of Garage Cars
+- Garage Area (in square feet)
+- Total Basement Area (in square feet)
+- Number of Full Bathrooms
+- Year Built
+- Number of Bedrooms Above Ground
+
+An example input is shown below:
+
+![input](https://github.com/user-attachments/assets/f87208c5-0c7d-4fb3-b72c-7a2b75e5dab8)
+
+### Output
+After entering the data, the program uses the linear regression model to predict the price of the house. The result is then displayed within a rectangle of asterisks, with two decimal places, for better readability.
+
+An example output is shown below:
+
+![output](https://github.com/user-attachments/assets/f8383fd6-9153-4162-933a-72a6cd57fb0d)
+
+This format ensures that the predicted price is clearly visible and easily distinguishable.
+
 ## Limitations and Possible Extensions
 ### Limitations
 - The model is only as good as the data it is trained on. If the data is not representative of the real-world scenario, the predictions might not be accurate.
@@ -74,4 +98,3 @@ This project can be used by real estate companies, financial analysts, and indiv
 5. **Run the Application**
    ```bash
    java -cp target/house-price-prediction-1.0-SNAPSHOT.jar com.example.HousePricePrediction
-   
