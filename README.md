@@ -88,7 +88,7 @@ This format ensures that the predicted price is clearly visible and easily disti
 ## How to Run
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/house-price-prediction-spark.git
+   git clone https://github.com/yourusername/house-price-prediction.git
 2. **Adjust the csv path**
    
    In the HousePricePrediction.java file replace "/home/bigdata2022/Scrivania/house-price-prediction/src/main/resources" with "/your/path/to/house-price-prediction/src/main/resources" 
