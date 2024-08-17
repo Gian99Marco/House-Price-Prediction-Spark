@@ -89,12 +89,14 @@ This format ensures that the predicted price is clearly visible and easily disti
    ```bash
    git clone https://github.com/yourusername/house-price-prediction-spark.git
 2. **Adjust the csv path**
-   In HousePricePrediction.java replace "/home/bigdata2022/Scrivania/house-price-prediction/src/main/resources" with "/your/path/to/house-price-prediction/src/main/resources" 
+   
+   In the HousePricePrediction.java file replace "/home/bigdata2022/Scrivania/house-price-prediction/src/main/resources" with "/your/path/to/house-price-prediction/src/main/resources" 
 
-4. **Build the Project**
+3. **Build the Project**
+
    Navigate to the project's root folder and, in the command prompt, type:
    ```bash
    mvn clean install
-5. **Run the Application**
+4. **Run the Application**
    ```bash
    java -cp target/house-price-prediction-1.0-SNAPSHOT.jar com.example.HousePricePrediction
