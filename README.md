@@ -31,6 +31,7 @@ The dataset can be found at this link: [House Prices](https://www.kaggle.com/com
 
 ### Technologies Used
 - **Apache Spark**: For distributed data processing and machine learning model training.
+- **MLlib**: Apache Spark library for machine learning.
 - **Java**: The programming language used to implement the project.
 - **Maven**: For project build and dependency management.
 
