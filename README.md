@@ -12,7 +12,7 @@
 6. [How to Run](#how-to-run)
 
 ## Introduction
-This project aims to predict house prices using a linear regression model implemented with Apache Spark's MLlib. It utilizes various features of the houses, such as the overall quality, living area, garage cars, garage area, total basement area, number of full bathrooms, year built, and number of bedrooms to make accurate predictions.
+This project aims to predict house prices using a linear regression model implemented with Apache Spark's MLlib. The application uses this model, trained on a dataset of real estate characteristics, to estimate the price of a house based on specific characteristics provided by the user via command line. The main goal is to provide a simple and fast tool to estimate the market value of a property.
 
 ## Dataflow and Technologies Used
 
