@@ -27,7 +27,7 @@ The dataset used for training the model includes the following features:
 - Year Built
 - Number of Bedrooms
 
-The dataset can be found at this link: [House Prices](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
+The dataset can be found on the Kaggle website at this link: [House Prices](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
 
 ### Technologies Used
 - **Apache Spark**: For distributed data processing and machine learning model training.
